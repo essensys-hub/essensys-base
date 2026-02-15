@@ -35,7 +35,7 @@ jobs:
           platforms: linux/arm64,linux/amd64
           push: true
           tags: |
-            nrineau/essensys-base:${{ steps.tag.outputs.tag }}
-            nrineau/essensys-base:latest
+            essensyshub/essensys-base:${{ steps.tag.outputs.tag }}
+            essensyshub/essensys-base:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
